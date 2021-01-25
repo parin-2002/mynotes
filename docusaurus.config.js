@@ -1,6 +1,6 @@
 module.exports = {
   title: "Dev Notes",
-  tagline: "The tagline of my site",
+  tagline: "work smart and become clever programmer",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -13,7 +13,8 @@ module.exports = {
       title: "Dev Notes",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src:
+          "https://i.pinimg.com/originals/ba/c2/c3/bac2c3f58112c9be8cc52de00f019e00.png", //navbar logo
       },
       items: [
         {
