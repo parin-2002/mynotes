@@ -1,15 +1,11 @@
 module.exports = {
   title: "Dev Notes",
-<<<<<<< HEAD
-  tagline: "work smart and become clever programmer",
-=======
   tagline: "be smart and become clever programmer",
->>>>>>> 604db64943ab9f007776907c9dffbd04702af052
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon-32x32.png",
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
@@ -17,12 +13,7 @@ module.exports = {
       title: "Dev Notes",
       logo: {
         alt: "My Site Logo",
-<<<<<<< HEAD
-        src:
-          "https://i.pinimg.com/originals/ba/c2/c3/bac2c3f58112c9be8cc52de00f019e00.png", //navbar logo
-=======
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwllQ4NuJE7UxJ3Glm9nCFCiUWNgDl3FapsA&usqp=CAU",
->>>>>>> 604db64943ab9f007776907c9dffbd04702af052
+        src: "img/favicon-32x32.png",
       },
       items: [
         {

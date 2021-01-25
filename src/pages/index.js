@@ -1,48 +1,49 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: 'Notes are helpful',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsuye0H3LgaEzIOQg3Jnpyive7AIRqZUJ3Qw&usqp=CAU',
+    title: "Notes are helpful",
+    imageUrl: "img/a.svg",
     description: (
       <>
-        takeing notes are most important thing for programmers that's why i created this 
-        website for collect my notes and my resources. 
+        takeing notes are most important thing for programmers that's why i
+        created this website for collect my notes and my resources.
       </>
     ),
   },
   {
-    title: 'Prime goals',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxU7zvGVBys4Vq4KQAEhUz5leWrbZDoKj1aA&usqp=CAU',
+    title: "Prime goals",
+    imageUrl: "img/b.svg",
     description: (
       <>
-        my main goal is web development so i store here some important
-        points or mini projects. probably this web site i made for me but this 
-        is also helpful for you. 
+        my main goal is web development so i store here some important points or
+        mini projects. probably this web site i made for me but this is also
+        helpful for you.
       </>
     ),
   },
   {
-    title: 'docusaurus',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: "docusaurus",
+    imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        I used docusaurus for this web site because it is essay to use and manage. 
+        I used docusaurus for this web site because it is essay to use and
+        manage.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -56,22 +57,24 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      description="Description will go into a meta tag in <head />"
+    >
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl("docs/")}
+            >
               Get Started
             </Link>
           </div>
