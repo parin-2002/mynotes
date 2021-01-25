@@ -1,6 +1,10 @@
 module.exports = {
   title: "Dev Notes",
+<<<<<<< HEAD
   tagline: "work smart and become clever programmer",
+=======
+  tagline: "be smart and become clever programmer",
+>>>>>>> 604db64943ab9f007776907c9dffbd04702af052
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -13,8 +17,12 @@ module.exports = {
       title: "Dev Notes",
       logo: {
         alt: "My Site Logo",
+<<<<<<< HEAD
         src:
           "https://i.pinimg.com/originals/ba/c2/c3/bac2c3f58112c9be8cc52de00f019e00.png", //navbar logo
+=======
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwllQ4NuJE7UxJ3Glm9nCFCiUWNgDl3FapsA&usqp=CAU",
+>>>>>>> 604db64943ab9f007776907c9dffbd04702af052
       },
       items: [
         {
@@ -25,7 +33,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/parin-2002",
           label: "GitHub",
           position: "right",
         },
@@ -35,15 +43,11 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "other site",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "Node.js/Python",
+              to: "http://codehelperdesk.blogspot.com",
             },
           ],
         },
@@ -73,12 +77,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/parin-2002",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dev Notes, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
