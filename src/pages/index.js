@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Notes are helpful',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsuye0H3LgaEzIOQg3Jnpyive7AIRqZUJ3Qw&usqp=CAU',
+    description: (
+      <>
+        takeing notes are most important thing for programmers that's why i created this 
+        website for collect my notes and my resources. 
+      </>
+    ),
+  },
+  {
+    title: 'Prime goals',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxU7zvGVBys4Vq4KQAEhUz5leWrbZDoKj1aA&usqp=CAU',
+    description: (
+      <>
+        my main goal is web development so i store here some important
+        points or mini projects. probably this web site i made for me but this 
+        is also helpful for you. 
+      </>
+    ),
+  },
+  {
+    title: 'docusaurus',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I used docusaurus for this web site because it is essay to use and manage. 
       </>
     ),
   },
