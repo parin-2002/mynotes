@@ -1,7 +1,7 @@
 ---
 id: html
 title:  HTML5 
-
+slug: /
 ---
 
 ## Resources for learning
